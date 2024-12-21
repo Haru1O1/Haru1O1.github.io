@@ -90,7 +90,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "hmanonymous96"
 facebook:
   username               :
   app_id                 :
@@ -113,15 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jason Yeung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am an a **human**."
+  location         : "America"
+  email            : "jasony4140@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:jasony4140@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Haru1O1"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -152,7 +152,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/Haru1O1"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
