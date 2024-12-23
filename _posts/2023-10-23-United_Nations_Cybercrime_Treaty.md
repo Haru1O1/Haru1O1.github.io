@@ -23,7 +23,7 @@ Petrosyan, Ani. “Cost of a Data Breach in the U.S. 2023.” Statista, 10 Oct. 
 
 FBI: Losses to Cybercrime Increased by 49% in 2022 to $10.3 Billion, http://www.hipaajournal.com/fbi-losses-to-cybercrime-increased-by-49-in-2022-to-10-3-billion/.
 
-Can a Cybercrime Convention for All Be Achieved? | Chatham House …, http://www.chathamhouse.org/2022/03/can-cybercrime-convention-all-be-achieved.
+Can a Cybercrime Convention for All Be Achieved? Chatham House …, http://www.chathamhouse.org/2022/03/can-cybercrime-convention-all-be-achieved.
 
 Rodriguez, Katitza. “First Draft of UN Cybercrime Convention Drops Troubling Provisions, but Dangerous and Open-Ended Cross Border Surveillance Powers Are Still on the Table.” Electronic Frontier Foundation, 31 Aug. 2023, http://www.eff.org/deeplinks/2023/07/first-draft-un-cybercrime-treaty-drops-troubling-provisions-dangerous-and-open.
 
