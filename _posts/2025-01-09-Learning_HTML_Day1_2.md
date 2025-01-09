@@ -5,7 +5,7 @@ categories: [blog]
 tags: [Reviews, Website, Programming, HTML]
 ---
 ## Introduction
-I was recently tasked to review and learn HTML using a set of videos. The number of videos is around 215 videos altogether. I decided first to create a general learning plan, which was to "Start with watching 15 videos for the first few days since the starting videos are background information and explaining basic structures, then if needed reduce it to get a more comprehensional idea of HTML." I will be reviewing these videos as a person who does not have any or only minor expertise in HTML and website building. The 
+I was recently tasked to review and learn HTML using a set of videos. The number of videos is around 215 videos altogether. I decided first to create a general learning plan, which was to "Start with watching 15 videos for the first few days since the starting videos are background information and explaining basic structures, then if needed reduce it to get a more comprehensional idea of HTML." I will be reviewing these videos as a person who does not have any or only minor expertise in HTML and website building.
 
 ## Background
 I only really used HTML and created my websites a couple of times. It was generally for testing and performing attacks on a sample website, such as SQL injections or XSS attacks, to name a few. I have never really made an entire website from scratch before, but have used a website before that slowly taught the process of HTML while creating a personal portfolio. This website I did this in high school and do not remember the website I used. I will be starting this "course" with a general understanding of HTML tags.
