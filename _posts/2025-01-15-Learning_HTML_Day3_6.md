@@ -1,5 +1,5 @@
 ---
-title: "Day 3-4 of Learning/Reviewing Website Building
+title: "Day 3-4 of Learning/Reviewing Website Building"
 date: 2025-1-15
 categories: [blog]
 tags: [Reviews, Website, Programming, HTML]

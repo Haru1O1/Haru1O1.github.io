@@ -1,5 +1,5 @@
 ---
-title: "Day 5-6 of Learning/Reviewing Website Building
+title: "Day 5-6 of Learning/Reviewing Website Building"
 date: 2025-1-15
 categories: [blog]
 tags: [Reviews, Website, Programming, HTML]
@@ -12,9 +12,31 @@ tags: [Reviews, Website, Programming, HTML]
 - NextJS Structure
     - `npm run dev` -> start a local development server
     - `page.js` builds the html pages
+        - pages are always titled `page.js`
+        - new pages requires a new folder in the app directory
     - **h1** tag -> header1
     - **div** tag -> adds text underneath the header tag
 - Eslint
-    - developer dependency that 
-
+    - developer dependency that can find and fix JavaScript code
+    - statically analyzes code to fix issues and problems
+- Link
+    - allows the ability to travel between pages
+    ```javascript
+    <a href="/folder_name">Name</a>
+    ```
+    - another way to do this is at the top of the `page.js` file add
+    ```javascript
+    import Link from "next/Link"
+    ...
+    <Link href="/folder_name">Name</Link>
+    ```
+- Layout
+    - `layout.js` this file will be applied to all `page.js` underneath
+        - top of the file includes
+    ```javascript
+    import "./globals.css";
+    ```
+    - `global.cs` like its name implies injects all the CSS properties to each page
+- React
+    - JavaScript library used to 
 ## Day 6 - Videos 67-84
