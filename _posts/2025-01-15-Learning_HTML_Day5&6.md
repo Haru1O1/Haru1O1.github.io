@@ -44,6 +44,25 @@ tags: [Reviews, Website, Programming, HTML]
         ```javascript
         <button onClick={() => console.log("Logging in")}>Login</button>
         ```
-    - components is each piece in a user interface
-        - similar to a Lego Block
+    - `components` is each piece in a user interface
+        - similar to a Lego Block each component together creates the interface
+        - allows for the ability to easily customize these components and reuse them across all pages
+        1. inside the main repository create a new folder
+        2. name it whatever you choose a good name could be components
+        3. create a JavaScript file by naming something related and adding a .js at the end
+        4. add the functionality using functions, imports, etc
+    - Two fundamental things in JavaScript
+        - `return`(keyword) -> can be used in any function to breaks the execution of the code
+            - any code under the return keyword will become unreachable at least inside of the function or whatever it is encased in
+        - `import`/`export`(statements) -> allows for seperation of the code to seperate files
+            - to use code from a different file `import` is used
+            - then for the code to available in `page.js` `export` is used
+            - Example
+        ```javascript
+        import Link from "next/Link"
+        ...
+        export default Name
+        ```
 ## Day 6 - Videos 67-84
+- GSX
+    - React components are functions that return GSX
