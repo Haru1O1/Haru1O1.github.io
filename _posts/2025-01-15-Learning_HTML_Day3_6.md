@@ -1,30 +1,120 @@
 ---
-title: "Day 1 & 2 of Learning/Reviewing Website Building using videos from Marc Louvion"
-date: 2025-1-09
+title: "Day 3-4 of Learning/Reviewing Website Building
+date: 2025-1-15
 categories: [blog]
 tags: [Reviews, Website, Programming, HTML]
 ---
-## Introduction
-I was recently tasked to review and learn HTML using a set of videos. The number of videos is around 215 videos altogether. I decided first to create a general learning plan, which was to "Start with watching 15 videos for the first few days since the starting videos are background information and explaining basic structures, then if needed reduce it to get a more comprehensional idea of HTML." I will be reviewing these videos as a person who does not have any or only minor expertise in HTML and website building.
+## Day 3 - Videos 29-40
+- Interactions
+    - Foundation of any web page is **HTML**
+    - **JavaScript** is used to add interactively and functionality to a webpage
+        - It is not required for a webpage to have a **JavaScript**
+    - To execute **JavaScript** on **Visual Studios**
+        1. Open the developer console
+        2. Go to console tab
+    - To write **JavaScript** on a webpage
+        - Add JavaScript at the end of the body tag 
+            - using the tags `<script>` and `</script>`
+- Variables
+    - the constants use **const**
+    - the variables use **let**
+    - the console acts like the standard output in typical coding
+        - to basically do the samething as `print()`
+        - do `console.log(a_variable)`
+- Types
+    - **typeof** is the equivalent of **type** in python
+        - returns the type of the variable or object
+    - since **let** can be used all types
+    - some of types are: 
+        - string : textual data (string)
+        - number : integers and floating point (int and floats)
+        - bigint : large numbers (long)
+        - boolean : true or false (boolean)
+        - undefined : variable declared but not assigned a value
+        - null : intentional absense of a value
+        - symbol : unique identifier
+        - object : collection of key-value pair and other complex entities
+        - array : used to store ordered lists
+        - function : performs actions or calculations
+- Functions
+    - to start writing a function it is similar to typical coding
+        1. start the function using **const**
+        2. add variables using = (*a_variable*)
+        3. then add =>
+        4. use { at the start the function and } to end the function
+        5. end the function by adding a semicolon(;) at the end
+        - Example of a button to that increments after a click
+    ```javascript  
+    const addLike = (incrementBy) => {  
+        likesCounter += incrementBy;  
+    };
+    ```
+- Comments
+    - start comments using **//**
+    - same as typical coding used for more readability
+- Objects
+    - similar structure to a function
+    1. start by instantiating const variable
+    2. add { to start and } to end
+    3. each line should have a comma at the end
+    4. end the object by adding a semicolon(;) at the end
+    - Example  
+    const a_object {};
+- Events
+    - **addEventListener** to add a event listener
+        - `addEventListener("a_variable", () => {});`
+- Element Manupilulation
+    - innerText can add text to objects like a button
+    - used in tamdem with document.getElementByID
+    - Example  
+    `document.getElementByID(variable).innerText = "*text*";`
+- Remove Redundancy
+    - biggest thing in any type of coding is to remove redundancy and improve readability
+- Seperation of Concerns
+    - To seperate the JavaScript from the HTML and CSS a file **index.js** can be used
+    - To use this new JavaScript file
+        1. Start writing in inside `<script>`
+        2. Add src="*the js file name*  
+        Example 
+         
+        `<script src="*js file name*>`
+- If else
+    - similar structure
+    - `if (*variable*) {};
+    - each line ends with a semicolon
+    - use `alert()` to send a alert
+    - for equivalent use triple `===` rather than double `==` like python
 
-## Background
-I only really used HTML and created my websites a couple of times. It was generally for testing and performing attacks on a sample website, such as SQL injections or XSS attacks, to name a few. I have never really made an entire website from scratch before, but have used a website before that slowly taught the process of HTML while creating a personal portfolio. This website I did this in high school and do not remember the website I used. I will be starting this "course" with a general understanding of HTML tags.
-
-## Day 1 - Videos 01-07
-The first seven videos do not develop on the topic of HTML at all. 1-4 provides a general introduction to the "course" and motivations for doing such a course. 5-6 gives a general understanding of how a website functions in terms of HTML, CSS, and JavaScript. 7 is the starting point where it becomes apparent that the IDE used throughout this course will be Visual Studios.
-
-## Day 1 - Videos 08-14
-These videos start talking about and explaining the general basic HTML tags with a separate video that covers each general use and the tags associated with them. Such as images using `<img>` or paragraphs using `<div>` or `<p>`. 
-
-## Day 1 Review
-For the first few videos, I felt like there was no need to separate 1-6; they could have just been made into one video called Introduction. The general overview of HTML tags and showing the ongoing code in using them was fine and drilled into the idea of each tag's usage. These videos were around 30 seconds - 2 minutes, and honestly, did not learn anything that I was not aware of. Well, other than a review on the general formatting and structure of HTML.
-
-## Day 2 - Videos 15-20
-More HTML tags mostly having to due with links such as `<iframe>` or `<a href...>`. 
-With a recap of HTML at 20.
-
-## Day 2 - Videos 21-28
-This section was on CSS and styling the website with colors, fonts, spacing, or other CSS properties. With a recap of CSS at 28.
-
-## Day 2 Review 
-Although I said I would watch 15 videos each day, I stopped at 28 because each section ends with a recap video, and 28 was the recap video for CSS. I found the second section of day 2 more interesting, the CSS part, as what made a website more popular was not only its contents but how it looked. Is it formatted in a specific way, is it vibrant, or immediately grabs attention? It is the core foundation of an effective website. It was something that I knew about but never really took the opportunity to go more in-depth about. This day was much more interesting, and I felt like I learned more than Day 1.
+## Day 4 - Videos 41-50
+- Textag
+    - list of tools developer use to build software
+- NodeJs
+    - application that allows JavaScript to be executed on a computer outside of a web browser
+    - `https://nodejs.org/en`
+- NextJs
+    - framework to structure HTML pages
+    - basically a large container for HTML pages
+    - allows for the ability to easily structure and style multiple pages
+    - Command on MAC -> npx create-next-app@*version*
+    - command to run -> npm run dev
+    - url to access -> localhost:3000
+- NPM
+    - Similar to Docker but for JavaScript use to find open source packages for JavaScript
+    - Each package contains a simple installation command
+        - `npm i a_name`
+    - To use packages use the file that was created `package.json`
+- Dependencies
+    - add dependencies to `package.json`
+    - add plugins to `package.json`
+```javascript
+plugins: {  
+    require('plugin'),  
+}
+```
+- Scripts
+    - script interacts with the entire project
+    - everything that is inside of the script object is executable
+    - To run for example a dev script
+        1. first thing to do is to stop the actual script
+        2. use Ctrl C
+        3. type NPM run
