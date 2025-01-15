@@ -1,5 +1,5 @@
 ---
-title: "Day 1 & 2 of Learning/Reviewing Website Building using videos from Marc Louvion"
+title: "Day 1 & 2 of Learning/Reviewing Website Building and SaaS using videos from Marc Louvion"
 date: 2025-1-09
 categories: [blog]
 tags: [Reviews, Website, Programming, HTML]
