@@ -38,5 +38,12 @@ tags: [Reviews, Website, Programming, HTML]
     ```
     - `global.cs` like its name implies injects all the CSS properties to each page
 - React
-    - JavaScript library used to 
+    - JavaScript library used to speed up the process and provides reusability for User Interfaces
+        - including a button
+        - Login button example
+        ```javascript
+        <button onClick={() => console.log("Logging in")}>Login</button>
+        ```
+    - components is each piece in a user interface
+        - similar to a Lego Block
 ## Day 6 - Videos 67-84
