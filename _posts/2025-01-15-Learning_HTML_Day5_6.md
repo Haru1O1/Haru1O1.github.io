@@ -68,7 +68,7 @@ tags: [Reviews, Website, Programming, HTML]
     - React components are functions that return GSX
     - short for JavaScript XML
     - similar to html what is needed is a opening tag and a closing tag
-    - allows for the ability to build dynamic user interface without over complicating things
+    - ability to build dynamic user interface without over complicating things
     - Example
     ```javascript
     <ButtonLogin />
