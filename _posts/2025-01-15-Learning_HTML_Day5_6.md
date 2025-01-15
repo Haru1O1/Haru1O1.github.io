@@ -63,6 +63,66 @@ tags: [Reviews, Website, Programming, HTML]
         ...
         export default Name
         ```
-## Day 6 - Videos 67-84
+## Day 6 - Videos 67-79
 - GSX
     - React components are functions that return GSX
+    - short for JavaScript XML
+    - similar to html what is needed is a opening tag and a closing tag
+    - allows for the ability to build dynamic user interface without over complicating things
+    - Example
+    ```javascript
+    <ButtonLogin />
+    {
+        console.log("Hi");
+    }
+    ```
+- Props
+    - every react components recieves a parameter called props
+    - it is empty at the start
+- Comments
+    - comments start with `//` and like other typical code does not run
+    - typical thing to do is comment at the start of functions and some lines of code for more readability
+- Destructuring
+    - shorthand syntax that unpack values from arrays or properties from objects into more distinct variables
+    - makes code more readable and concise
+    - Example 
+    ```javascript
+    const [var1, var2, var3] = object;
+    ```
+- JavaScript Functions
+    - Example
+    ```javascript
+    const doThis = () => {
+        // do something
+    };
+    or
+    // looks similar to that of python in making a function
+    function doThat() {
+        // do something
+    }
+    ```
+- Styling
+    - Example
+    ```javascript
+    return (
+        // Header1 in the font size of 48 pixels
+        <h1 style={( fontSize: "48px" )}>
+            Something
+    );
+    ```
+- CSS Classes
+    - group of CSS properties that will be applied to any element
+    - instead using style like above classes can be used
+- Tailwind CSS
+    - CSS framework that is a large repository with predefined CSS classes
+    - there is a extension for it in Visual Studios as well
+        - called Tailwind CSS IntelliSense
+        - after hovering over any Tailwind classes it shows the exact CSS properties that are applied
+        - it also shows all the potential classes that can be used
+- Hero section
+    - the first section that users
+    - this includes a headline, some text, possibly a button to login, or logo
+    - `<section>` tag can be used to easily seperate each section
+- Rem
+    - unit of measurement that Tailwind uses
+    - default is 1 REM equals 16 pixels
