@@ -63,6 +63,7 @@ tags: [Reviews, Website, Programming, HTML]
                 ...
                 export default Name
                 ```
+
 ## Day 6 - Videos 67-79
 - GSX
     - React components are functions that return GSX
