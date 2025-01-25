@@ -8,7 +8,7 @@ tags: [Reviews, Website, Programming, HTML]
 - Git
     - Allows for the ability to switch between versions of code and rollback whenever needed easily
     - Commit is to add a comment to what is being pushed to the GitHub repository
-    - git.ignore is to add files that should not be added to the Github repository
+    - git.ignore is to add files that should not be added to the GitHub repository
 - NextJS Structure
     - `npm run dev` -> start a local development server
     - `page.js` builds the HTML pages
@@ -77,7 +77,7 @@ tags: [Reviews, Website, Programming, HTML]
     }
     ```
 - Props
-    - Every react components receives a parameter called props
+    - Every react component receives a parameter called props
     - It is empty at the start
 - Comments
     - Comments start with `//` and like other typical code does not run
@@ -112,7 +112,7 @@ tags: [Reviews, Website, Programming, HTML]
     ```
 - CSS Classes
     - Group of CSS properties that will be applied to any element
-    - Instead of using style like the above classes can be used
+    - Instead of using a style like the above classes can be used
 - Tailwind CSS
     - CSS framework that is a large repository with predefined CSS classes
     - There is an extension for it in Visual Studios as well
@@ -121,8 +121,8 @@ tags: [Reviews, Website, Programming, HTML]
         - It also shows all the potential classes that can be used
 - Hero section
     - The first section that users
-    - This includes a headline, some text, possibly a button to login, or logo
-    - `<section>` tag can be used to easily seperate each section
+    - This includes a headline, some text, possibly a button to log in, or a logo
+    - `<section>` tag can be used to separate each section easily
 - Rem
     - A unit of measurement that Tailwind uses
     - The default is 1 REM equals 16 pixels
