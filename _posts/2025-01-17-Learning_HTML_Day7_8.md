@@ -142,18 +142,18 @@ tags: [Reviews, Website, Programming, HTML]
     - Allow for the ability to move to different sections on the page
     - Example 
     ```javascript
-    <a href="#section1">Go to Section 1</a>
-    <a href="#section2">Go to Section 2</a>
+    // <a href="#section1">Go to Section 1</a>
+    // <a href="#section2">Go to Section 2</a>
 
-    <section id="section1">
-        <h2>Section 1</h2>
-        <p>This is Section 1 content.</p>
-    </section>
+    // <section id="section1">
+    //     <h2>Section 1</h2>
+    //     <p>This is Section 1 content.</p>
+    // </section>
 
-    <section id="section2">
-        <h2>Section 2</h2>
-        <p>This is Section 2 content.</p>
-    </section>
+    // <section id="section2">
+    //     <h2>Section 2</h2>
+    //     <p>This is Section 2 content.</p>
+    // </section>
     ```
 - Next.js Image Component
     - In traditional HTML to add an image a source URL is required and an alt can be added for a short description
