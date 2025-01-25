@@ -100,7 +100,6 @@ tags: [Reviews, Website, Programming, HTML]
                 </div>
             );
         }
-        ```
 ## Day 8 - Videos 95-109
 - React Server vs React Client Components
     - Components are labeled as a **server** or **client** depending on how its rendered
