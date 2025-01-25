@@ -6,7 +6,7 @@ tags: [Reviews, Website, Programming, HTML]
 ---
 ## Day 7 - Videos 80-94
 - Config.JS
-    - tailwind.css does looks at all the class names and generate a CSS file with all the class required
+    - tailwind.css looks at all the class names and generates a CSS file with all the classes required
     - This file contains the ability to customize anything
     - `module.export`
         - Similar to export default
@@ -65,7 +65,7 @@ tags: [Reviews, Website, Programming, HTML]
     - Type of data structure
         - can hold more than one value
     - Index starts at zero
-    - To use a array use the brackets symbol
+    - To use an array use the brackets symbol
         - Example -> `const fruits = ["🍉", "🍓", "🍎"]`
     - Map
         - Goes through each element and makes a new array by implementing a function with it
@@ -103,14 +103,14 @@ tags: [Reviews, Website, Programming, HTML]
 ## Day 8 - Videos 95-109
 - React Server vs React Client Components
     - Components are labeled as a **server** or **client** depending on how its rendered
-    - A internet browser has no idea that React's JS or any other library are being in use
+    - An internet browser has no idea that React's JS or any other library is in use
         - It does not understand the code
         - So React needs to take the code and transform it into something the browser can understand
             - This is known as the rendering process
                 - If the rendering is done on the server it is a **Server Component**
                 - If the rendering is done on the browser it is a **Client Component**
     - **Server Component**
-        - By default all React components are labled as **Server Component**
+        - By default, all React components are labeled as **Server Component**
         - `How It Works`
             - When a client visits a website the server checks the React JS code and turns it into a HTML page
             - That page is then sent back to the browser who then shows it to the client
@@ -121,22 +121,22 @@ tags: [Reviews, Website, Programming, HTML]
         - `Caveat`
             - React.js features or client components are needed to listen to  events for some elements
     - **Client Component**
-        - The server does not compile all the code but rather it sends back a empty skeleton with some guidelines for how to transform it into a valid HTML
-        - Client will recieve a big big JavaScript page and then React will then compile the code inside of the browser
-        - All the client components are transform into clients.html
-        - Unlike server components these features are visible to the clients 
+        - The server does not compile all the code but rather it sends back an empty skeleton with some guidelines for how to transform it into a valid HTML
+        - The client will receive a big JavaScript page and then React will compile the code inside the browser
+        - All the client components are transformed into clients.html
+        - Unlike server components, these features are visible to the clients 
         - `Major Advantages`
             - User interactivity -> listen for click events or React hooks
-            - Allows access to browser features such as the storage or alerts
-        - To label the component as client
+            - Allows access to browser features such as storage or alerts
+        - To label the component as a client
             - Type on the top of the js file `"use client";`
     - 
 - Creating a FAQ Section
-    - List of question and answers
+    - List of questions and answers
     - When a user clicks on a question the answer should be displayed
     - PsuedoCode
-        - First a use state react hook is required to keep track of whether the question was clicked and when it is unclicked (true to false)
-        - Next a conditional rendering is needed as if it is open then show the answer else show nothing
+        - First, a use state react hook is required to keep track of whether the question was clicked and when it is unclicked (true to false)
+        - Next, a conditional rendering is needed as if it is open then show the answer else show nothing
         - For each question and answer it should return the client component
 - Anchor Links
     - Allow for the ability to move to different sections on the page
@@ -156,8 +156,8 @@ tags: [Reviews, Website, Programming, HTML]
     </section>
     ```
 - Next.js Image Component
-    - In traditional HTML to add a image a source url is required and a alt can be added for a short description
-        - One drawback is that the image resolution and file size is not optimized
+    - In traditional HTML to add an image a source URL is required and an alt can be added for a short description
+        - One drawback is that the image resolution and file size are not optimized
     - Example
     ```javascript
     import imgDemo from "./img1_ex.jpg";
@@ -169,13 +169,13 @@ tags: [Reviews, Website, Programming, HTML]
     - https://vercel.com/
     - provides a server for use that can take the code and be used publicly
     - Steps (Website Version)
-        1. Login or Create a account on Vercel
+        1. Login or Create an account on Vercel
         2. Import your repository (GitHub, GitLab, or Bitbucket).
         3. Configure the Project
         4. Deploy the Project
             - The preview URL should be -> https://your-project-name.vercel.app
         5. Continuous Deployment
-            - Every time you push or update the repository linked to the Vercel it automatically rebuild and redeploy the project
+            - Every time you push or update the repository linked to the Vercel it automatically rebuilds and redeploy the project
         6. Custom Domain (Optional)
             - Custom domain (e.g., mywebsite.com) -> Domains section & Add
         7. Monitor and Manage Deployments
@@ -196,7 +196,7 @@ tags: [Reviews, Website, Programming, HTML]
 - DNS Records
     - A record 
         - Also known as Address Record 
-        - points a domain to a ip address
+        - points a domain to a IP address
         - The primary record for routing traffic to a website or server
         - Example:  
         Name  : @ or mywebsite.com  
@@ -226,11 +226,11 @@ tags: [Reviews, Website, Programming, HTML]
         Name  : @(root domain)  
         Value : v=DKIM1; p=MIGfMA0GCSqGSIb...
 - Database
-    - Allows for quick and easy storage of data and the abilitiy to move, edit, and delete said data
-    - For example for users the information that need to be stored is their login information
+    - Allows for quick and easy storage of data and the ability to move, edit, and delete said data
+    - For example for users, the information that needs to be stored in their login information
         - Such as email, username, password, etc
-    - Or if it is a website that for social interactions the comments and posts need to be also stored
-    - Connection stream , API key, lets anyone with the key do anything on the database
+    - Or if it is a website for social interactions the comments and posts need to be also stored
+    - Connection stream, API key, lets anyone with the key do anything on the database
     - The connection should be done serverside the client should not be able to connect to the database directly
     - SQL (structured query language)
         - structured
