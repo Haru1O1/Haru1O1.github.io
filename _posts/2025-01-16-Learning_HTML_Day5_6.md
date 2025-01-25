@@ -70,12 +70,12 @@ tags: [Reviews, Website, Programming, HTML]
     - Similar to HTML what is needed is an opening tag and a closing tag
     - Ability to build dynamic user interface without overcomplicating things
     - Example
-    ```javascript
-    <ButtonLogin />
-    {
-        console.log("Hi");
-    }
-    ```
+    -   ```javascript
+        <ButtonLogin />
+        {
+            console.log("Hi");
+        }
+        ```
 - Props
     - Every react component receives a parameter called props
     - It is empty at the start
@@ -86,30 +86,30 @@ tags: [Reviews, Website, Programming, HTML]
     - Shorthand syntax that unpacks values from arrays or properties from objects into more distinct variables
     - Makes code more readable and concise
     - Example 
-    ```javascript
-    const [var1, var2, var3] = object;
-    ```
+    -   ```javascript
+        const [var1, var2, var3] = object;
+        ```
 - JavaScript Functions
     - Example
-    ```javascript
-    const doThis = () => {
-        // do something
-    };
-    or
-    // looks similar to that of python in making a function
-    function doThat() {
-        // do something
-    }
-    ```
+    -   ```javascript
+        const doThis = () => {
+            // do something
+        };
+        or
+        // looks similar to that of python in making a function
+        function doThat() {
+            // do something
+        }
+        ```
 - Styling
     - Example
-    ```javascript
-    return (
-        // Header1 in the font size of 48 pixels
-        <h1 style={( fontSize: "48px" )}>
-            Something
-    );
-    ```
+    -   ```javascript
+        return (
+            // Header1 in the font size of 48 pixels
+            <h1 style={( fontSize: "48px" )}>
+                Something
+        );
+        ```
 - CSS Classes
     - Group of CSS properties that will be applied to any element
     - Instead of using a style like the above classes can be used
