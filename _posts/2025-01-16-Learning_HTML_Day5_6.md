@@ -21,29 +21,29 @@ tags: [Reviews, Website, Programming, HTML]
     - Statically analyzes code to fix issues and problems
 - Link
     - Allows the ability to travel between pages
-    ```javascript
-    <a href="/folder_name">Name</a>
-    ```
+    -   ```javascript
+        <a href="/folder_name">Name</a>
+        ```
     - Another way to do this is to add at the top of the `page.js` file add
-    ```javascript
-    import Link from "next/Link"
-    ...
-    <Link href="/folder_name">Name</Link>
-    ```
+    -   ```javascript
+        import Link from "next/Link"
+        ...
+        <Link href="/folder_name">Name</Link>
+        ```
 - Layout
     - `layout.js` this file will be applied to all `page.js` underneath
         - The top of the file includes
-    ```javascript
-    import "./globals.css";
-    ```
+    -   ```javascript
+        import "./globals.css";
+        ```
     - `global.cs` like its name implies injects all the CSS properties to each page
 - React
     - JavaScript library used to speed up the process and provides reusability for User Interfaces
         - Including a button
         - Login button example
-        ```javascript
-        <button onClick={() => console.log("Logging in")}>Login</button>
-        ```
+        -   ```javascript
+            <button onClick={() => console.log("Logging in")}>Login</button>
+            ```
     - `components` is each piece in a user interface
         - Similar to a Lego Block each component together creates the interface
         - Allows for the ability to customize these components and reuse them across all pages easily
@@ -58,11 +58,11 @@ tags: [Reviews, Website, Programming, HTML]
             - To use code from a different file `import` is used
             - Then for the code to be available in `page.js` `export` is used
             - Example
-        ```javascript
-        import Link from "next/Link"
-        ...
-        export default Name
-        ```
+            -   ```javascript
+                import Link from "next/Link"
+                ...
+                export default Name
+                ```
 ## Day 6 - Videos 67-79
 - GSX
     - React components are functions that return GSX

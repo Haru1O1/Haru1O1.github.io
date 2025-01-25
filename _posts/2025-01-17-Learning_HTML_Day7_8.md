@@ -31,36 +31,36 @@ tags: [Reviews, Website, Programming, HTML]
     - Javascript conditional operator
     - A way to simplify the if and else statements
     - Example
-    ```javascript
-    const age = 19;
-    let canVote;
+    -   ```javascript
+        const age = 19;
+        let canVote;
 
-    if (age >= 18) {
-        canVote = "Yes";
-    }
-    else {
-        canVote = "No";
-    }
-    // to
-    canVote = age >= 18 ? "Yes" : "No";
-    ```
+        if (age >= 18) {
+            canVote = "Yes";
+        }
+        else {
+            canVote = "No";
+        }
+        // to
+        canVote = age >= 18 ? "Yes" : "No";
+        ```
 - ESLint
     - Extension for VS Code
         - Can locate formatting issues and semantic errors and automatically fix them
 - Template Literals
     - Allows for easier string interpolation and multi-line strings
     - Example
-    ```javascript
-    const name = "aName";
-    isLoggedIn = "True";
+    -   ```javascript
+        const name = "aName";
+        isLoggedIn = "True";
 
-    // Normal Greetings
-    const greetings1 = "Hello" + name;
-    // Greet with the name
-    const greetings2 = `Hello ${name}`;
-    // If logged on greet with name else say Hello there
-    const greetings3 = `Hello ${isLoggedIn ? name : "there"}`;
-    ```
+        // Normal Greetings
+        const greetings1 = "Hello" + name;
+        // Greet with the name
+        const greetings2 = `Hello ${name}`;
+        // If logged on greet with name else say Hello there
+        const greetings3 = `Hello ${isLoggedIn ? name : "there"}`;
+        ```
 - Arrays(JavaScript)
     - Type of data structure
         - can hold more than one value
@@ -70,36 +70,37 @@ tags: [Reviews, Website, Programming, HTML]
     - Map
         - Goes through each element and makes a new array by implementing a function with it
         - For example
-        ```javascript
-        const HiFruits = fruits.map((fruit) => {
-            return `Hi ${fruit}`;
-        });
+        -   ```javascript
+            const HiFruits = fruits.map((fruit) => {
+                return `Hi ${fruit}`;
+            });
+            ```
     - Filter
         - Goes through each element in the array and runs a function
         - For example
-        ```javascript
-        const missingApple = fruits.filter((fruit) => {
-            return fruit !== "🍎";
-        });
-        ```
+        -   ```javascript
+            const missingApple = fruits.filter((fruit) => {
+                return fruit !== "🍎";
+            });
+            ```
 - React Hooks
     - Functions that use state and lifecycle features in functional components
     - Use state hooks when updated changes the entire appearance of the page
     - Example
-    ```javascript
-    import { useState } from "react";
+    -   ```javascript
+        import { useState } from "react";
 
-    function Counter() {
-        const [count, setCount] = useState(0);
+        function Counter() {
+            const [count, setCount] = useState(0);
 
-        return (
-            <div>
-                <p>Count: {count}</p>
-                <button onClick={() => setCount(count + 1)}>Increment</button>
-            </div>
-        );
-    }
-    ```
+            return (
+                <div>
+                    <p>Count: {count}</p>
+                    <button onClick={() => setCount(count + 1)}>Increment</button>
+                </div>
+            );
+        }
+        ```
 ## Day 8 - Videos 95-109
 - React Server vs React Client Components
     - Components are labeled as a **server** or **client** depending on how its rendered
@@ -141,30 +142,30 @@ tags: [Reviews, Website, Programming, HTML]
 - Anchor Links
     - Allow for the ability to move to different sections on the page
     - Example 
-    ```javascript
-    // <a href="#section1">Go to Section 1</a>
-    // <a href="#section2">Go to Section 2</a>
+    -   ```javascript
+        <a href="#section1">Go to Section 1</a>
+        <a href="#section2">Go to Section 2</a>
 
-    // <section id="section1">
-    //     <h2>Section 1</h2>
-    //     <p>This is Section 1 content.</p>
-    // </section>
+        <section id="section1">
+            <h2>Section 1</h2>
+            p>This is Section 1 content.</p>
+        </section>
 
-    // <section id="section2">
-    //     <h2>Section 2</h2>
-    //     <p>This is Section 2 content.</p>
-    // </section>
-    ```
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>This is Section 2 content.</p>
+        </section>
+        ```
 - Next.js Image Component
     - In traditional HTML to add an image a source URL is required and an alt can be added for a short description
         - One drawback is that the image resolution and file size are not optimized
     - Example
-    ```javascript
-    import imgDemo from "./img1_ex.jpg";
-    import Image from "next/image";
-    ...
-    <Image src={imgDemo} alt="A Image" />
-    ```
+    -   ```javascript
+        import imgDemo from "./img1_ex.jpg";
+        import Image from "next/image";
+        ...
+        <Image src={imgDemo} alt="A Image" />
+        ```
 - Vercel
     - https://vercel.com/
     - provides a server for use that can take the code and be used publicly
@@ -182,11 +183,11 @@ tags: [Reviews, Website, Programming, HTML]
             - Vercel has performance analytics
             - It can also monitor deployment status, view logs, or roll back previous versions
 - Commands 
-    ```
-    npm run dev   # For development mode  
-    npm run build # Build the project  
-    npm start     # Start the production build
-    ```
+    -   ```
+        npm run dev   # For development mode  
+        npm run build # Build the project  
+        npm start     # Start the production build
+        ```
 - Subdomains
     - After obtaining a domain any prefix(subdomain) before the actual domain is considered a subdomain
     - Example:  
