@@ -75,21 +75,21 @@ tags: [Reviews, Website, Programming, HTML]
     - Oauth.js has a ton of providers
         - Example:
             - Apple, Discord, Google, Github, Facebook, Emails, Etc ...
-    - Usually one social provider and one email-based provider should be included on a website
+    - Usually, one social provider and one email-based provider should be included on a website
     - Magic Links are usually used instead of email and passwords as passwords no matter how secure if leaked ruin the login process
         - This means that the website typically asks for an email address associated with the login
         - The server then checks to see if the email address has been used or is stored in the database
-        - If it is then it sends a unique link to the email and after being clicked with allows the user to log in
+        - If it is then it sends a unique link to the email and after being clicked allows the user to log in
     - This process of using magic links also simplifies the process of resetting passwords
     - Typically the go-to way to websites used to reset passwords
 - OAuth Login (Google)
-    1. Go to Google Cloud and create or log to a account
+    1. Go to Google Cloud and create or log into an account
     2. Create a new project
     3. Go to API and Services
     4. Then to Credentials
     5. Configure a consent screen
         - Internal - only available to people within the organization
-        - External - available to user with a Google account
+        - External - available to users with a Google account
 - JavaScript AND & OR
     - Used to combine multiple expressions and return a boolean (true or false)
     - Logical AND (&&)
@@ -177,9 +177,9 @@ tags: [Reviews, Website, Programming, HTML]
 ## Day 10 - Videos 125-139
 - Private Dashboard
     - Gives a form of protection to prevent a random user from accessing any of the dashboard pages without first logging in or signing up
-    - If there no current user session -> send back to the homepage
-    - To do this each page under the dashboard need to have this so a layout is used to make it easier
-        - Layout is a structure is applied to every page
+    - If there is no current user session -> send back to the homepage
+    - To do this each page under the dashboard needs to have this so a layout is used to make it easier
+        - Layout is a structure applied to every page
     - layout.js
     -   ```javascript
         import { auth } from "@/auth";
@@ -217,7 +217,7 @@ tags: [Reviews, Website, Programming, HTML]
 - Data Architecture
     - Before any coding is done it is important to start brainstorming about the features and data that will be on the application
     - Each of these features should be identified with the type of data and how to interconnect them together
-    - For example for a website where a user can post on a board and other users can respond to said post with a comment or a upvote
+    - For example for a website where a user can post on a board and other users can respond to a said post with a comment or an upvote
         - User
         ↓
         - Board
@@ -232,7 +232,7 @@ tags: [Reviews, Website, Programming, HTML]
     - `npm install mongoose`
 - Schema
     - How data is structured
-    - Models are built on top on the schema which help interactions between the database
+    - Models are built on top of the schema which helps interactions between the database
     - With each collection in the database a model needs to be created
     - Create a folder called models and create a model
 - Models
@@ -254,7 +254,7 @@ tags: [Reviews, Website, Programming, HTML]
         export default mongoose.model("Board", boardSchema);
         ```
 - Frontend & Backend
-    - Frontend are usally pages created for user to interact with
+    - Frontend are usually pages created for users to interact with
         - Client-Side
     - Backend is the logic that happens in the back which is hidden away from the user's view
         - Server-Side
@@ -266,10 +266,10 @@ tags: [Reviews, Website, Programming, HTML]
     - 300 range
         - Redirecting the request
     - 400 range
-        - Client-Side Error occured
+        - Client-Side Error occurred
         - Ex: 
-            - 400 -> Client made a bad request
-                - Like mising a required parameter
+            - 400 ->The  Client made a bad request
+                - Like missing a required parameter
             - 401 -> Client is not authorized
                 - Like the client is not signed in
             - 403 -> Client is forbidden to access this information
