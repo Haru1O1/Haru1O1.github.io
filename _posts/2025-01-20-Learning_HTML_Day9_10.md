@@ -275,4 +275,4 @@ tags: [Reviews, Website, Programming, HTML]
             - 403 -> Client is forbidden to access this information
             - 404 -> Server cannot find the requested resource the client is asking for
     - 500 range
-        - Server-Side Error
+        - Server-Side Error   
