@@ -173,4 +173,106 @@ tags: [Reviews, Website, Programming, HTML]
     - The try block contains the part of the code that might caused an error
     - The catch block contains the part of the code inside the try block that will only run if an error is found
     - The error parameter in the catch block refers to the specific error that was thrown
+
 ## Day 10 - Videos 125-139
+- Private Dashboard
+    - Gives a form of protection to prevent a random user from accessing any of the dashboard pages without first logging in or signing up
+    - If there no current user session -> send back to the homepage
+    - To do this each page under the dashboard need to have this so a layout is used to make it easier
+        - Layout is a structure is applied to every page
+    - layout.js
+    -   ```javascript
+        import { auth } from "@/auth";
+        import { redirect } from "next/navigation";
+
+        export async function LayoutPrivate({ children }) {
+            const session = await auth();
+
+            if (!session){
+                redirect("/"); // redirect to homepage if no session
+            }
+
+            return children;
+        }
+        ```
+- Sign Out
+    - There needs to be a button to sign out
+    - To do so a new component needs to be created which can be called ButtonLogout.js
+    -   ```javascript
+        "use client";
+
+        import { signOut } from "next-auth/react";
+
+        const ButtonLogout = () => {
+            return (
+                <button className="btn btn-ghost" onClick={() => signout()}>
+                    Logout
+                </button>
+            );
+        };
+
+        export default ButtonLogout
+        ```
+    - Now to make the button appear just add on the top of page.js `import ButtonLogout from "@/components/ButtonLogout";` or where the component is located
+- Data Architecture
+    - Before any coding is done it is important to start brainstorming about the features and data that will be on the application
+    - Each of these features should be identified with the type of data and how to interconnect them together
+    - For example for a website where a user can post on a board and other users can respond to said post with a comment or a upvote
+        - User
+        ↓
+        - Board
+        ↓
+        - Post
+        ↓
+        - Vote & Comment
+- Mongoose
+    - MongoDB with Mongoose is a powerful tool for working with databases in applications with Node.js 
+    - Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js
+    - Provides a straight-forward schema-based solution to model data, interact with MongoDB databases, and manage connections
+    - `npm install mongoose`
+- Schema
+    - How data is structured
+    - Models are built on top on the schema which help interactions between the database
+    - With each collection in the database a model needs to be created
+    - Create a folder called models and create a model
+- Models
+    -   ```javascript
+        import mongoose from "mongoose";
+
+        const boardSchema = new mongoose.Schema({
+            userId: {
+                type: mongoose.Schema.Types.ObjectId,
+                required: true,
+            },
+            name: {
+                type: String,
+                required: true,
+                trim: true,
+            },
+        });
+
+        export default mongoose.model("Board", boardSchema);
+        ```
+- Frontend & Backend
+    - Frontend are usally pages created for user to interact with
+        - Client-Side
+    - Backend is the logic that happens in the back which is hidden away from the user's view
+        - Server-Side
+- HTTP status codes
+    - Range from 100 to 500
+    - Sent from the server to the client
+    - 200
+        - Everything is ok
+    - 300 range
+        - Redirecting the request
+    - 400 range
+        - Client-Side Error occured
+        - Ex: 
+            - 400 -> Client made a bad request
+                - Like mising a required parameter
+            - 401 -> Client is not authorized
+                - Like the client is not signed in
+            - 403 -> Client is forbidden to access this information
+            - 404 -> Server cannot find the requested resource the client is asking for
+    - 500 range
+        - Server-Side Error
