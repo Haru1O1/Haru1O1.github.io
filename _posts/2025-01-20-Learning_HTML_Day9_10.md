@@ -6,15 +6,15 @@ tags: [Reviews, Website, Programming, HTML]
 ---
 ## Day 9 - Videos 110-124
 - API
-    - The most common way users get information from a website is by the server itself returning a HTML page
-    - However since there are other things other than a HTML page like images or links APIs are needed
-    - A API is a generic word that describes a server that gives access to developers to perform actions
-    - For example in building software and web apps a API is typically used to communicate with the backend
-    - Using MongoDB package in a application is considered a API
-    - In the past a dedicated server is required to be created to make a API
+    - The most common way users get information from a website is by the server itself returning an HTML page
+    - However, since there are things other than an HTML page like images or links APIs are needed
+    - An API is a generic word that describes a server that gives access to developers to perform actions
+    - For example in building software and web apps API is typically used to communicate with the backend
+    - Using the MongoDB package in an application is considered an API
+    - In the past, a dedicated server is required to be created to make an API
     - Nowadays NextGS can easily be used to create the API 
         - Steps:
-            1. Create a folder called API to the app folder
+            1. Create a folder called API in the app folder
             2. Create another folder inside the API folder called auth
                 - auth - authentication
             3. Create a file called route.js
@@ -28,26 +28,26 @@ tags: [Reviews, Website, Programming, HTML]
 
                 }
                 ```
-            5. To access this part on localhost just add the folder api and auth to it -> /api/auth/
+            5. To access this part on localhost add the folder API and auth to it -> /api/auth/
 - Auth.js
     - Boilerplate code for user authentication
     - Installation
-        1. Go to terminal or the command line interface of the OS
+        1. Go to the terminal or the command line interface of the OS
         2. Type `nmp install next.auth@beta`
         3. Press enter it will now be installed in the dependency
 - User Authentication
     - When a client visits a website and goes to the login page
     - The server sends back the sign-in.html page
-    - This login page could have serveral different options to login or signup whether it be using login credentials '(email or password)' or a third party sign in like Google or Facebook.
-    - The later is using a provider so if a client chooses to use the provider to sign in it sends a post request to the API and passes the parameters such as the provider and login creds
+    - This login page could have several different options to log in or sign up, whether using login credentials '(email or password)' or a third-party sign-in like Google or Facebook.
+    - The latter uses a provider so if a client chooses to use the provider to sign in it sends a post request to the API and passes the parameters such as the provider and login creds
 - Cookies
     - Small piece of data that is sent by the webservers
     - For example:
-        - The API to an internet browser who then stores this data on the computer or phone
+        - The API to an internet browser then stores this data on the computer or phone
     - Cookies are used universally throughout the internet
-        - Can be uaed for tracking analytics, user preference, session tokens, etc ...
-        - One example is using cookies to create a last click attribution model where the cookie is used to identify the last person who interacted with a customer before they made a purchase
-    - There are two crucial parts that are also required to use user authentication features
+        - Can be used for tracking analytics, user preference, session tokens, etc ...
+        - One example is using cookies to create a last-click attribution model where the cookie is used to identify the last person who interacted with a customer before they made a purchase
+    - Two crucial parts are also required to use user authentication features
         - The first one is having a database to save the user and session data
         - The second is setting up the third-party provider login
 - Emails
@@ -70,26 +70,26 @@ tags: [Reviews, Website, Programming, HTML]
         - One provider is called Mailgun
             - A relatively popular email API service designed for sending, receiving, and tracking emails
             - Includes a free plan
-        - It is usally the best choice to use a subdomain for the email source as it reduces the impact of damaged reputation if the system is attacked
+        - It is usually the best choice to use a subdomain for the email source as it reduces the impact of damaged reputation if the system is attacked
 - OAuth Login
     - Oauth.js has a ton of providers
         - Example:
             - Apple, Discord, Google, Github, Facebook, Emails, Etc ...
-    - Usally one social provider and one email-based provider should be included to a website
-    - Magic Links are usally used instead of email and passwords as passwords no matter how secure if leaked ruins the login process
-        - This means that the website typically asks for a email address associated with the login
+    - Usually one social provider and one email-based provider should be included on a website
+    - Magic Links are usually used instead of email and passwords as passwords no matter how secure if leaked ruin the login process
+        - This means that the website typically asks for an email address associated with the login
         - The server then checks to see if the email address has been used or is stored in the database
-        - If it is then it sends a unique link to the email and after being clicked with allow the user to login
+        - If it is then it sends a unique link to the email and after being clicked with allows the user to log in
     - This process of using magic links also simplifies the process of resetting passwords
-    - Typically the go to way to websites used to reset passwords
+    - Typically the go-to way to websites used to reset passwords
 - OAuth Login (Google)
-    1. Go to Google Cloud and create or logon to a account
+    1. Go to Google Cloud and create or log to a account
     2. Create a new project
     3. Go to API and Services
     4. Then to Credentials
     5. Configure a consent screen
-        - Internal - only avaiable to people within the organization
-        - External - avaiable to user with a google account
+        - Internal - only available to people within the organization
+        - External - available to user with a Google account
 - JavaScript AND & OR
     - Used to combine multiple expressions and return a boolean (true or false)
     - Logical AND (&&)
@@ -97,8 +97,8 @@ tags: [Reviews, Website, Programming, HTML]
     -   ```javascript
         console.log(true && false); // false
         console.log(true && true);  // true
-        console.log("Hello" && "World"); // "World" (both truthy)
-        console.log(null && "Hi");  // null (null is falsy)
+        console.log("Hello" && "World"); // "World" (both true)
+        console.log(null && "Hi");  // null (null is false)
         ```
     - Logical OR (||)
         - Returns the first true value or the last false value if all values are false
@@ -152,7 +152,7 @@ tags: [Reviews, Website, Programming, HTML]
         }
         ```
     - Await Keyword
-        - Used inside a Async function to pause the execution of the function until a Javascript Promise resolves or rejects
+        - Used inside an Async function to pause the execution of the function until a Javascript Promise resolves or rejects
         -   ```javascript
             async function fetchData() {
                 const result = await myPromise;  // Waits until the promise resolves
