@@ -1,9 +1,18 @@
 ---
 title: "Day 11 & 12 of Learning/Reviewing Website Building & SaaS"
-date: 2025-1-21
+date: 2025-1-29
 categories: [blog]
 tags: [Reviews, Website, Programming, HTML]
 ---
+- Disclaimer
+    - I will be not be explaining some of the videos on the speaker's specific implementations for his SaaS and only talking about the topics in the video generally
+
+## Where I Have Been
+- I have been sick for past week and largely took a break and only did a few videos
+- Practically lied on my bed for most of the time due to having the urge to cough or sneeze as soon as I stop being warm either from getting out my blankets or taking of my jacket if I left the room
+- The time periods I felt it the most was morning and night as headaches
+- Currently I have largely recovered only having to blow my nose occasionally due to a runny nose
+
 ## Day 11 - Videos 140-154
 - React Controlled Forms
     - Forms where the elements (i.e. input fields, checkboxes, text areas) are controlled by React 
