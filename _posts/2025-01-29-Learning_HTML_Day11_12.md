@@ -15,7 +15,7 @@ tags: [Reviews, Website, Programming, HTML]
 
 ## Day 11 - Videos 140-154
 - React Controlled Forms
-    - Forms where the elements (i.e. input fields, checkboxes, text areas) are controlled by React 
+    - Forms where React controls the elements (i.e. input fields, checkboxes, text areas) 
     - Form inputs are always synced with the component’s state
         - Easier to handle form validation, data submission, and user interactions
     - Controlled Components
@@ -64,7 +64,7 @@ tags: [Reviews, Website, Programming, HTML]
         const value = obj?.property;
         ```
 - Eslint Rules
-    - Popular tool for in automating coding standards and locating bugs or erros in JavaScript 
+    - Popular tool for automating coding standards and locating bugs or errors in JavaScript 
     - Rules that maintain clean, consistent, and error-free code
     -   ```
         // Install ESLint globally
@@ -95,25 +95,25 @@ tags: [Reviews, Website, Programming, HTML]
     - `Pricing is marketing`
     - Along with the headline impacts the conversion rate the most
     - Free Plans
-        - For a solo entrepreneur a free plan is a bad idea as in general only around 3% of free users will upgrade to paid versions
-        - Without millions of dollars in marketing it is extremely difficult in building a large enough user base with premium users to support the costs
+        - For a solo entrepreneur a free plan is a bad idea as in general, only around 3% of free users will upgrade to paid versions
+        - Without millions of dollars in marketing it is extremely difficult to build a large enough user base with premium users to support the costs
     - Free Trials
-        - For free trials unless the product is a competitor of another tool that already includes a free trial it is usally a bad idea to implement this
+        - For free trials, unless the product is a competitor of another tool that already includes a free trial it is usually a bad idea to implement this
         - Harder to find constructive and useful feedback or criticism
     - Alternatives
         - Demo
             - A way for users to test the product along with a video that shows the individual showing off the software
         - Free Credits
-            - A type of plan that can be seem in AI image generation where a user is given a few credits which allow them to use the tool for a few uses before displaying the paywall
+            - A type of plan that can be seen in AI image generation where a user is given a few credits which allow them to use the tool for a few uses before displaying the paywall
         - Subscriptions
             - Extremely popular method to use by sellers as most individuals forget about the recurring charge
-                - So much so there are numerous of tools and apps that are made to specifically target unused recurring subscriptions
+                - So much so some numerous tools and apps are made to target unused recurring subscriptions specifically
         - One-Time Payments
             - Easier to sell
-            - Lose money in the long term as one-time payments usally come with free upgrades or updates so even if there are more mechanisms it typically is free to the users
+            - Lose money in the long term as one-time payments usually come with free upgrades or updates so even if there are more mechanisms it typically is free to the users
             - Can always switch to a subscription later on
     - The most common problem with pricing is deciding whether it is just right not too high or too low
-    - In the beginning where only a couple of few visiters will notice the website if the price is low it seems to the customers as cheap
+    - In the beginning where only a couple of visitors will notice the website if the price is low it seems to the customers as cheap
     - A common way to determine how to price is by identifying what the competitors are doing
 - Payment Processing Solution
     - Companies like Stripe, Lemonsquizy, Paddle, PayPal, etc...
